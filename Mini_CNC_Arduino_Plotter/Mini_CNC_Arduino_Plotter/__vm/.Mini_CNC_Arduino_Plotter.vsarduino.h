@@ -20,6 +20,10 @@
 #define ARDUINO_ARCH_AVR
 //
 //
+void processIncomingLine( char* line, int charNB );
+void drawLine(float x1, float y1);
+void penUp();
+void penDown();
 
 #include "pins_arduino.h" 
 #include "arduino.h"

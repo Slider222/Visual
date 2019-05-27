@@ -28,15 +28,15 @@
     <BootSegment>0</BootSegment>
     <AsfFrameworkConfig>
       <framework-data>
-  <options />
-  <configurations />
-  <files />
-  <documentation help="" />
-  <offline-documentation help="" />
-  <dependencies>
-    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.34.1" />
-  </dependencies>
-</framework-data>
+        <options />
+        <configurations />
+        <files />
+        <documentation help="" />
+        <offline-documentation help="" />
+        <dependencies>
+          <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.34.1" />
+        </dependencies>
+      </framework-data>
     </AsfFrameworkConfig>
     <preserveEEPROM>true</preserveEEPROM>
     <ResetRule>0</ResetRule>
@@ -67,6 +67,8 @@
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
       <Value>../../../Mini_CNC_Arduino_Plotter</Value>
+      <Value>D:/ProgrammWork/AVR_1/MiniPlotter/Mini_CNC_Arduino_Plotter/Mini_CNC_Arduino_Plotter/src/_micro-api/libraries/Servo</Value>
+      <Value>D:/ProgrammWork/AVR_1/MiniPlotter/Mini_CNC_Arduino_Plotter/Mini_CNC_Arduino_Plotter/src/_micro-api/libraries/Stepper</Value>
       <Value>../_micro-api/libraries/Stepper</Value>
       <Value>../_micro-api/libraries/Servo</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
@@ -105,6 +107,8 @@
   <avrgcccpp.compiler.directories.IncludePaths>
     <ListValues>
       <Value>../../../Mini_CNC_Arduino_Plotter</Value>
+      <Value>D:/ProgrammWork/AVR_1/MiniPlotter/Mini_CNC_Arduino_Plotter/Mini_CNC_Arduino_Plotter/src/_micro-api/libraries/Servo</Value>
+      <Value>D:/ProgrammWork/AVR_1/MiniPlotter/Mini_CNC_Arduino_Plotter/Mini_CNC_Arduino_Plotter/src/_micro-api/libraries/Stepper</Value>
       <Value>../_micro-api/libraries/Stepper</Value>
       <Value>../_micro-api/libraries/Servo</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
@@ -128,7 +132,7 @@
   <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
 </AvrGccCpp>
     </ToolchainSettings>
-    <VMSETTING_IncludePaths>../../../Mini_CNC_Arduino_Plotter;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/libraries/Servo;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/libraries/Stepper;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/libraries;C:/Users/Serg/Documents/Arduino/libraries;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/arduino/libraries;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/arduino/cores/arduino;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/arduino/variants/standard;d:/programmwork/загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/tools/avr/avr/include/;d:/programmwork/загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/tools/avr/avr/include/avr/;d:/programmwork/загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/tools/avr/avr/;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/avrnetio/libraries;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/avrnetio/cores/avrnetio;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/avrnetio/variants/avrnetio;../_micro-api/libraries/Servo;../_micro-api/libraries/Stepper;C:/Program Files (x86)/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/yun;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include;C:/Program Files (x86)/Arduino/hardware/avrnetio/avr/libraries;C:/Program Files (x86)/Arduino/hardware/avrnetio/avr/cores/avrnetio;C:/Program Files (x86)/Arduino/hardware/avrnetio/avr/variants/avrnetio;C:/Program Files (x86)/Arduino/hardware/avrnetio/avr/cores/avrnetio/avr-libc;</VMSETTING_IncludePaths>
+    <VMSETTING_IncludePaths>../../../Mini_CNC_Arduino_Plotter;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/libraries/Servo;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/libraries/Stepper;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/libraries;C:/Users/Serg/Documents/Arduino/libraries;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/arduino/libraries;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/arduino/cores/arduino;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/arduino/variants/standard;d:/programmwork/загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/tools/avr/avr/include/;d:/programmwork/загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/tools/avr/avr/include/avr/;d:/programmwork/загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/tools/avr/avr/;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/avrnetio/libraries;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/avrnetio/cores/avrnetio;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/avrnetio/variants/avrnetio;../_micro-api/libraries/Servo;../_micro-api/libraries/Stepper;C:/Program Files (x86)/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/yun;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include;C:/Program Files (x86)/Arduino/hardware/avrnetio/avr/libraries;C:/Program Files (x86)/Arduino/hardware/avrnetio/avr/cores/avrnetio;C:/Program Files (x86)/Arduino/hardware/avrnetio/avr/variants/avrnetio;C:/Program Files (x86)/Arduino/hardware/avrnetio/avr/cores/avrnetio/avr-libc;D:/ProgrammWork/AVR_1/MiniPlotter/Mini_CNC_Arduino_Plotter/Mini_CNC_Arduino_Plotter/src/_micro-api/libraries/Servo;D:/ProgrammWork/AVR_1/MiniPlotter/Mini_CNC_Arduino_Plotter/Mini_CNC_Arduino_Plotter/src/_micro-api/libraries/Stepper;</VMSETTING_IncludePaths>
     <VisualMicroSettings>
       <VisualMicroSettings>
         <arduino.build.auto_discover_includes>0</arduino.build.auto_discover_includes>
@@ -441,6 +445,8 @@ vmresolved.tools.path=C:\Program Files (x86)\Arduino\hardware\tools\avr
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
       <Value>../../../Mini_CNC_Arduino_Plotter</Value>
+      <Value>D:/ProgrammWork/AVR_1/MiniPlotter/Mini_CNC_Arduino_Plotter/Mini_CNC_Arduino_Plotter/src/_micro-api/libraries/Servo</Value>
+      <Value>D:/ProgrammWork/AVR_1/MiniPlotter/Mini_CNC_Arduino_Plotter/Mini_CNC_Arduino_Plotter/src/_micro-api/libraries/Stepper</Value>
       <Value>../_micro-api/libraries/Stepper</Value>
       <Value>../_micro-api/libraries/Servo</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
@@ -479,6 +485,8 @@ vmresolved.tools.path=C:\Program Files (x86)\Arduino\hardware\tools\avr
   <avrgcccpp.compiler.directories.IncludePaths>
     <ListValues>
       <Value>../../../Mini_CNC_Arduino_Plotter</Value>
+      <Value>D:/ProgrammWork/AVR_1/MiniPlotter/Mini_CNC_Arduino_Plotter/Mini_CNC_Arduino_Plotter/src/_micro-api/libraries/Servo</Value>
+      <Value>D:/ProgrammWork/AVR_1/MiniPlotter/Mini_CNC_Arduino_Plotter/Mini_CNC_Arduino_Plotter/src/_micro-api/libraries/Stepper</Value>
       <Value>../_micro-api/libraries/Stepper</Value>
       <Value>../_micro-api/libraries/Servo</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
@@ -502,7 +510,7 @@ vmresolved.tools.path=C:\Program Files (x86)\Arduino\hardware\tools\avr
   <avrgcccpp.assembler.debugging.DebugLevel>Default (-Wa,-g)</avrgcccpp.assembler.debugging.DebugLevel>
 </AvrGccCpp>
     </ToolchainSettings>
-    <VMSETTING_IncludePaths>../../../Mini_CNC_Arduino_Plotter;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/libraries/Servo;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/libraries/Stepper;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/libraries;C:/Users/Serg/Documents/Arduino/libraries;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/arduino/libraries;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/arduino/cores/arduino;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/arduino/variants/standard;d:/programmwork/загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/tools/avr/avr/include/;d:/programmwork/загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/tools/avr/avr/include/avr/;d:/programmwork/загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/tools/avr/avr/;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/avrnetio/libraries;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/avrnetio/cores/avrnetio;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/avrnetio/variants/avrnetio;../_micro-api/libraries/Servo;../_micro-api/libraries/Stepper;C:/Program Files (x86)/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/yun;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include;C:/Program Files (x86)/Arduino/hardware/avrnetio/avr/libraries;C:/Program Files (x86)/Arduino/hardware/avrnetio/avr/cores/avrnetio;C:/Program Files (x86)/Arduino/hardware/avrnetio/avr/variants/avrnetio;C:/Program Files (x86)/Arduino/hardware/avrnetio/avr/cores/avrnetio/avr-libc;</VMSETTING_IncludePaths>
+    <VMSETTING_IncludePaths>../../../Mini_CNC_Arduino_Plotter;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/libraries/Servo;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/libraries/Stepper;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/libraries;C:/Users/Serg/Documents/Arduino/libraries;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/arduino/libraries;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/arduino/cores/arduino;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/arduino/variants/standard;d:/programmwork/загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/tools/avr/avr/include/;d:/programmwork/загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/tools/avr/avr/include/avr/;d:/programmwork/загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/tools/avr/avr/;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/avrnetio/libraries;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/avrnetio/cores/avrnetio;D:/ProgrammWork/Загрузки/arduino-1.0.4-windows/arduino-1.0.4/hardware/avrnetio/variants/avrnetio;../_micro-api/libraries/Servo;../_micro-api/libraries/Stepper;C:/Program Files (x86)/Arduino/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries;C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino;C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/yun;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include;C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include;C:/Program Files (x86)/Arduino/hardware/avrnetio/avr/libraries;C:/Program Files (x86)/Arduino/hardware/avrnetio/avr/cores/avrnetio;C:/Program Files (x86)/Arduino/hardware/avrnetio/avr/variants/avrnetio;C:/Program Files (x86)/Arduino/hardware/avrnetio/avr/cores/avrnetio/avr-libc;D:/ProgrammWork/AVR_1/MiniPlotter/Mini_CNC_Arduino_Plotter/Mini_CNC_Arduino_Plotter/src/_micro-api/libraries/Servo;D:/ProgrammWork/AVR_1/MiniPlotter/Mini_CNC_Arduino_Plotter/Mini_CNC_Arduino_Plotter/src/_micro-api/libraries/Stepper;</VMSETTING_IncludePaths>
     <VisualMicroSettings>
       <VisualMicroSettings>
         <arduino.build.auto_discover_includes>0</arduino.build.auto_discover_includes>
