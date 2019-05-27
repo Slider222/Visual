@@ -69,8 +69,8 @@
       <Value>../../../Mini_CNC_Arduino_Plotter</Value>
       <Value>D:/ProgrammWork/AVR_1/MiniPlotter/Mini_CNC_Arduino_Plotter/Mini_CNC_Arduino_Plotter/src/_micro-api/libraries/Servo</Value>
       <Value>D:/ProgrammWork/AVR_1/MiniPlotter/Mini_CNC_Arduino_Plotter/Mini_CNC_Arduino_Plotter/src/_micro-api/libraries/Stepper</Value>
-      <Value>../_micro-api/libraries/Stepper</Value>
       <Value>../_micro-api/libraries/Servo</Value>
+      <Value>../_micro-api/libraries/Stepper</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
       <Value>C:/Users/Serg/Documents/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/avrnetio/avr/libraries</Value>
@@ -109,8 +109,8 @@
       <Value>../../../Mini_CNC_Arduino_Plotter</Value>
       <Value>D:/ProgrammWork/AVR_1/MiniPlotter/Mini_CNC_Arduino_Plotter/Mini_CNC_Arduino_Plotter/src/_micro-api/libraries/Servo</Value>
       <Value>D:/ProgrammWork/AVR_1/MiniPlotter/Mini_CNC_Arduino_Plotter/Mini_CNC_Arduino_Plotter/src/_micro-api/libraries/Stepper</Value>
-      <Value>../_micro-api/libraries/Stepper</Value>
       <Value>../_micro-api/libraries/Servo</Value>
+      <Value>../_micro-api/libraries/Stepper</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
       <Value>C:/Users/Serg/Documents/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/avrnetio/avr/libraries</Value>
@@ -447,8 +447,8 @@ vmresolved.tools.path=C:\Program Files (x86)\Arduino\hardware\tools\avr
       <Value>../../../Mini_CNC_Arduino_Plotter</Value>
       <Value>D:/ProgrammWork/AVR_1/MiniPlotter/Mini_CNC_Arduino_Plotter/Mini_CNC_Arduino_Plotter/src/_micro-api/libraries/Servo</Value>
       <Value>D:/ProgrammWork/AVR_1/MiniPlotter/Mini_CNC_Arduino_Plotter/Mini_CNC_Arduino_Plotter/src/_micro-api/libraries/Stepper</Value>
-      <Value>../_micro-api/libraries/Stepper</Value>
       <Value>../_micro-api/libraries/Servo</Value>
+      <Value>../_micro-api/libraries/Stepper</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
       <Value>C:/Users/Serg/Documents/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/avrnetio/avr/libraries</Value>
@@ -487,8 +487,8 @@ vmresolved.tools.path=C:\Program Files (x86)\Arduino\hardware\tools\avr
       <Value>../../../Mini_CNC_Arduino_Plotter</Value>
       <Value>D:/ProgrammWork/AVR_1/MiniPlotter/Mini_CNC_Arduino_Plotter/Mini_CNC_Arduino_Plotter/src/_micro-api/libraries/Servo</Value>
       <Value>D:/ProgrammWork/AVR_1/MiniPlotter/Mini_CNC_Arduino_Plotter/Mini_CNC_Arduino_Plotter/src/_micro-api/libraries/Stepper</Value>
-      <Value>../_micro-api/libraries/Stepper</Value>
       <Value>../_micro-api/libraries/Servo</Value>
+      <Value>../_micro-api/libraries/Stepper</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
       <Value>C:/Users/Serg/Documents/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/avrnetio/avr/libraries</Value>
@@ -1040,9 +1040,6 @@ vmresolved.tools.path=C:\Program Files (x86)\Arduino\hardware\tools\avr
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="src\_micro-api\libraries\Stepper\Stepper.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="__vm\.Mini_CNC_Arduino_Plotter.vsarduino.h">
       <SubType>compile</SubType>
     </Compile>
   </ItemGroup>
